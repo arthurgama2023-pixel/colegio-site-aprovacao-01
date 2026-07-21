@@ -1,0 +1,504 @@
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700;800&amp;family=Nunito+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=block" rel="stylesheet"><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">try{
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-highest": "#e1e3e4",
+                        "on-error-container": "#93000a",
+                        "outline": "#777680",
+                        "heritage-blue": "#000033",
+                        "outline-variant": "#c7c5d0",
+                        "secondary-container": "#de2c2b",
+                        "surface-container-high": "#e7e8e9",
+                        "primary-fixed-dim": "#bfc2fb",
+                        "secondary-fixed": "#ffdad6",
+                        "surface-white": "#FFFFFF",
+                        "growth-green": "#00A859",
+                        "on-secondary-fixed-variant": "#93000d",
+                        "surface-container": "#edeeef",
+                        "error": "#ba1a1a",
+                        "academic-red": "#C8191E",
+                        "on-tertiary-fixed-variant": "#005228",
+                        "on-tertiary-fixed": "#00210d",
+                        "primary-container": "#131645",
+                        "on-surface-variant": "#46464f",
+                        "on-background": "#191c1d",
+                        "surface-dim": "#d9dadb",
+                        "surface-container-low": "#f3f4f5",
+                        "tertiary": "#000000",
+                        "primary-fixed": "#e0e0ff",
+                        "inverse-on-surface": "#f0f1f2",
+                        "on-surface": "#191c1d",
+                        "on-tertiary": "#ffffff",
+                        "surface-variant": "#e1e3e4",
+                        "on-secondary": "#ffffff",
+                        "surface-bright": "#f8f9fa",
+                        "secondary": "#ba0816",
+                        "surface": "#f8f9fa",
+                        "surface-container-lowest": "#ffffff",
+                        "on-tertiary-container": "#009850",
+                        "on-secondary-container": "#fffbff",
+                        "on-secondary-fixed": "#410002",
+                        "surface-tint": "#575a8c",
+                        "inverse-surface": "#2e3132",
+                        "error-container": "#ffdad6",
+                        "tertiary-fixed": "#77fca3",
+                        "primary": "#000000",
+                        "on-primary-container": "#7c80b4",
+                        "excellence-gold": "#FFFF00",
+                        "secondary-fixed-dim": "#ffb4ab",
+                        "background": "#f8f9fa",
+                        "tertiary-fixed-dim": "#59df89",
+                        "inverse-primary": "#bfc2fb",
+                        "on-primary-fixed": "#131645",
+                        "on-primary-fixed-variant": "#3f4273",
+                        "on-error": "#ffffff",
+                        "tertiary-container": "#00210d",
+                        "on-primary": "#ffffff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "gutter": "24px",
+                        "container-max": "1280px",
+                        "base": "8px",
+                        "margin-mobile": "16px",
+                        "margin-desktop": "40px"
+                    },
+                    "fontFamily": {
+                        "label-sm": ["Nunito Sans"],
+                        "headline-md": ["Hanken Grotesk"],
+                        "headline-lg-mobile": ["Hanken Grotesk"],
+                        "label-md": ["Nunito Sans"],
+                        "headline-xl": ["Hanken Grotesk"],
+                        "body-lg": ["Nunito Sans"],
+                        "body-md": ["Nunito Sans"],
+                        "headline-lg": ["Hanken Grotesk"]
+                    },
+                    "fontSize": {
+                        "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "600"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "headline-lg-mobile": ["28px", {"lineHeight": "36px", "fontWeight": "700"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "700"}],
+                        "headline-xl": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700"}]
+                    }
+                },
+            },
+        }
+    }catch(_e){}</script><meta charset="utf-8"></head><body class="bg-background font-body-md text-on-background selection:bg-excellence-gold selection:text-heritage-blue">
+<!-- TopNavBar -->
+<nav class="fixed top-0 left-0 w-full z-50 bg-surface-white border-b border-outline-variant shadow-sm">
+<div class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto">
+<div class="flex items-center gap-4">
+
+</div>
+<div class="hidden md:flex gap-8 items-center">
+<a href="#" class="font-label-md text-label-md text-secondary border-b-2 border-secondary pb-1 transition-colors duration-200">Filosofia</a>
+<a href="#" class="font-label-md text-label-md text-on-surface-variant hover:text-secondary transition-colors duration-200">Níveis de Ensino</a>
+<a href="#" class="font-label-md text-label-md text-on-surface-variant hover:text-secondary transition-colors duration-200">Infraestrutura</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-secondary transition-colors duration-200" href="#">Depoimentos</a>
+</div>
+<a class="bg-heritage-blue text-surface-white px-6 py-3 rounded-full font-label-md text-label-md hover:bg-secondary transition-colors duration-300" href="#matricula">
+                Matricule-se
+            </a>
+</div>
+</nav>
+<!-- Hero Section -->
+<header class="relative min-h-[90vh] flex items-center pt-20 overflow-hidden">
+<div class="absolute inset-0 z-0" data-alt="A cinematic, wide-angle photograph of the historic Colégio Batista Shepard campus during the golden hour. The architecture shows century-old colonial elegance with modern glass wings, surrounded by lush green trees and students in navy blue uniforms walking purposefully across the bright, sun-drenched courtyard. The lighting is warm and inspiring, reflecting a light-mode aesthetic with deep blue shadows and golden highlights." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCAr3DqYqMQHEMdyqFWMw2rA29Qqbwr80VUgp3bvNxNmYE82WF6U2hCunfldAxRFFjlMbFEZsfEZnSi2JtMpTRVx-w31lPZ0IxQK_7yirWWFKOi4IV18Bcn8LkjimR4aCtJV52DRbGAKsH1VzimkhUJWnchjeJXN_BC24ubIOey5CjEowH9OSq8fzxlggury6xgQNEyLe3gu1JWyYPK_O8ty_tQpUg9JrDdAPRUumbB29_y8XaNjM0')">
+<div class="absolute inset-0 hero-overlay"></div>
+</div>
+<div class="relative z-10 w-full px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto grid md:grid-cols-2 gap-12 items-center">
+<div class="text-surface-white space-y-6">
+<span class="inline-block px-4 py-1 bg-excellence-gold text-heritage-blue font-bold rounded-full text-label-sm uppercase tracking-wider">Matrículas Abertas 2025</span>
+<h1 class="font-headline-xl text-headline-xl text-surface-white">Amor e Excelência que Transformam Vidas</h1>
+<p class="font-body-lg text-body-lg opacity-90 max-w-xl">
+                    Mais de 100 anos educando com valores cristãos e excelência acadêmica. Oferecemos uma formação integral que prepara seu filho para os desafios do futuro com base sólida e humana.
+                </p>
+<div class="pt-4 flex flex-col sm:flex-row gap-4">
+<a class="bg-excellence-gold text-heritage-blue px-8 py-4 rounded-full font-bold text-center hover:scale-105 transition-transform" href="#matricula">
+                        Quero Garantir uma Vaga
+                    </a>
+<a class="border-2 border-surface-white text-surface-white px-8 py-4 rounded-full font-bold text-center hover:bg-surface-white/10 transition-colors" href="#">
+                        Conheça o Campus
+                    </a>
+</div>
+</div>
+<div class="hidden md:block">
+<div class="bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20">
+<div class="flex items-center gap-4 mb-6">
+<div class="w-12 h-12 bg-excellence-gold rounded-full flex items-center justify-center text-heritage-blue">
+<span class="material-symbols-outlined">verified_user</span>
+</div>
+<div>
+<h3 class="font-bold text-lg text-surface-white">Tradição Centenária</h3>
+<p class="text-sm text-surface-white/70">Compromisso com o futuro</p>
+</div>
+</div>
+<div class="space-y-4">
+<div class="flex justify-between items-center py-2 border-b border-white/10">
+<span class="text-surface-white/80">Educação Humanizada</span>
+<span class="material-symbols-outlined text-excellence-gold">check_circle</span>
+</div>
+<div class="flex justify-between items-center py-2 border-b border-white/10">
+<span class="text-surface-white/80">Material Didático Bernoulli</span>
+<span class="material-symbols-outlined text-excellence-gold">check_circle</span>
+</div>
+<div class="flex justify-between items-center py-2 border-b border-white/10">
+<span class="text-surface-white/80">Inglês Shepard+</span>
+<span class="material-symbols-outlined text-excellence-gold">check_circle</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<!-- Tripé Section -->
+<section class="py-24 bg-surface-white">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto text-center mb-16">
+<h2 class="font-headline-lg text-headline-lg text-heritage-blue mb-4">O Tripé da Nossa Educação</h2>
+<p class="font-body-md text-on-surface-variant max-w-2xl mx-auto">Nossa metodologia é fundamentada na parceria indissociável entre a escola, o aluno e a família.</p>
+</div>
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto grid md:grid-cols-3 gap-8">
+<div class="p-10 text-center rounded-2xl border border-outline-variant hover:border-heritage-blue transition-colors group">
+<div class="w-20 h-20 bg-surface-container mx-auto rounded-2xl flex items-center justify-center text-heritage-blue mb-6 group-hover:bg-heritage-blue group-hover:text-surface-white transition-all">
+<span class="material-symbols-outlined text-4xl">school</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-heritage-blue mb-3">Escola</h3>
+<p class="text-on-surface-variant leading-relaxed">Infraestrutura de ponta e corpo docente qualificado para guiar cada descoberta.</p>
+</div>
+<div class="p-10 text-center rounded-2xl border border-outline-variant hover:border-heritage-blue transition-colors group">
+<div class="w-20 h-20 bg-surface-container mx-auto rounded-2xl flex items-center justify-center text-heritage-blue mb-6 group-hover:bg-heritage-blue group-hover:text-surface-white transition-all">
+<span class="material-symbols-outlined text-4xl">person_pin</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-heritage-blue mb-3">Aluno</h3>
+<p class="text-on-surface-variant leading-relaxed">O protagonista do próprio aprendizado, incentivado a pensar de forma crítica e criativa.</p>
+</div>
+<div class="p-10 text-center rounded-2xl border border-outline-variant hover:border-heritage-blue transition-colors group">
+<div class="w-20 h-20 bg-surface-container mx-auto rounded-2xl flex items-center justify-center text-heritage-blue mb-6 group-hover:bg-heritage-blue group-hover:text-surface-white transition-all">
+<span class="material-symbols-outlined text-4xl">family_restroom</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-heritage-blue mb-3">Família</h3>
+<p class="text-on-surface-variant leading-relaxed">A base fundamental. Caminhamos juntos no desenvolvimento de valores cristãos e caráter.</p>
+</div>
+</div>
+</section>
+<!-- Educational Segments -->
+<section class="py-24 bg-surface-container-low">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto flex justify-between items-end mb-12">
+<div>
+<h2 class="font-headline-lg text-headline-lg text-heritage-blue">Níveis de Ensino</h2>
+<p class="text-on-surface-variant">Excelência em cada etapa do desenvolvimento</p>
+</div>
+</div>
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Educação Infantil -->
+<div class="bg-surface-white p-2 rounded-2xl shadow-sm border border-outline-variant bento-card overflow-hidden">
+<div class="h-48 rounded-xl bg-cover bg-center mb-4" data-alt="A heartwarming close-up shot of young preschool children at Colégio Batista Shepard playing with colorful educational blocks in a sunlit classroom. The children are smiling and engaged, with soft natural lighting highlighting their expressions of joy and discovery. The scene is clean, modern, and emphasizes a nurturing, light-mode educational environment." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBtRLZvCtdamJhqhDhSquZ3Pwof267tC2zOG8WM69532pye_A2AEjtm5A-K0dUANH3tpD3HBMgUxezrO3IcZ5XFpezwSirGn6Kq7-kWwsDAHYBkQ5OBd5JmO5YujQSP-VSeUiIQ9fitpHfd9RFkL3IVJt6IOVzOMgf4EPoZEsslX5SZUJL1JIe4oa547h-K0Go-vPu3TAr94pCcT4JgfVPeYzMADQuFvMkpRfbHeXXfTtMFON6of0E')"></div>
+<div class="p-4">
+<h4 class="font-bold text-xl text-heritage-blue mb-2">Educação Infantil</h4>
+<p class="text-sm text-on-surface-variant mb-6 h-12 overflow-hidden">Explorando o mundo através do brincar e do acolhimento.</p>
+<a class="text-heritage-blue font-bold flex items-center gap-2 hover:gap-3 transition-all" href="#">
+                        Saiba Mais <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Fundamental I -->
+<div class="bg-surface-white p-2 rounded-2xl shadow-sm border border-outline-variant bento-card overflow-hidden">
+<div class="h-48 rounded-xl bg-cover bg-center mb-4" data-alt="Primary school students at Colégio Batista Shepard sitting at modern desks, collaborating on a group project. They are surrounded by colorful posters and books in a bright, airy classroom. The atmosphere is focused yet energetic, with a palette of crisp whites, heritage blues, and vibrant classroom colors." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDXc4gEIqA0pCAQySD2z8bqVqit_LCcoysCkEb2LT-UWTAI_3XTNT5YI-VNjGbCmVEiPJnLcE8Jdd81FwQ2ZTZRoTrTRkqdxhOTDCVNwt5Raj0IgHF3Va1HFN5vrrbFBYaLhrzQIEpgatD7zsKW5F-3nLf0eHQb90g7_hwxAbkBD52r2IbjV4n7OOLjjUVtwu9b0cmMeZAkr_tjakiXZaAYIT5dGTsPP7fhPinJXlIaD48GfS179IE')"></div>
+<div class="p-4">
+<h4 class="font-bold text-xl text-heritage-blue mb-2">Fundamental I</h4>
+<p class="text-sm text-on-surface-variant mb-6 h-12 overflow-hidden">Base sólida em alfabetização e letramento científico.</p>
+<a class="text-heritage-blue font-bold flex items-center gap-2 hover:gap-3 transition-all" href="#">
+                        Saiba Mais <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Fundamental II -->
+<div class="bg-surface-white p-2 rounded-2xl shadow-sm border border-outline-variant bento-card overflow-hidden">
+<div class="h-48 rounded-xl bg-cover bg-center mb-4" data-alt="Middle school students using tablets and interactive whiteboards in a high-tech science lab at Colégio Batista Shepard. The lighting is bright and modern, showcasing a state-of-the-art learning facility. Students are wearing clean school uniforms, engaged in deep discussion and digital research." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCECwwtj0rXG1w15CX4ZdiBL2R5ksozQBOLB3A-TogtIpKLsIW1HqnuGrhdjz-p9EYTLFBkTh3o6bFSLUSyixHGPlZ2fRtMkF8o_6YEEXNi5ekHZEFdxvnpHp1F6dw7cAs9WZqixuyXqsb0VWyAkZFsuW38623jKMunHSaSPDrB1n6tnga2587LUIyl2lO2FkeIPkSNu8wiK3WUkZaRGX7UmrKZ1Z-qjOMguum5hqxkorwaohyE1KA')"></div>
+<div class="p-4">
+<h4 class="font-bold text-xl text-heritage-blue mb-2">Fundamental II</h4>
+<p class="text-sm text-on-surface-variant mb-6 h-12 overflow-hidden">Desenvolvendo autonomia e pensamento crítico rigoroso.</p>
+<a class="text-heritage-blue font-bold flex items-center gap-2 hover:gap-3 transition-all" href="#">
+                        Saiba Mais <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Ensino Médio -->
+<div class="bg-surface-white p-2 rounded-2xl shadow-sm border border-outline-variant bento-card overflow-hidden">
+<div class="h-48 rounded-xl bg-cover bg-center mb-4" data-alt="Confident high school students at Colégio Batista Shepard studying in a university-style library. The architecture is a mix of traditional wood shelving and modern glass dividers. High-key lighting creates a professional, academic atmosphere, emphasizing focus, achievement, and preparation for top universities." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBqWvr21pm7GQbVYmUBrRi4fw2TXsYCeiIeuPa0Y-6x2ddJ6ZC2uTInevzwqhkDauExTfEd4HrC6TXuUyTZJjamUS_d3Jd1q-OpB5gDMleUo_ve6vZrcb3TnXiT6ti5Afa3qhnuc8p_cNYDuEW_5KVpjAzigrzFrI_-A2UNsg5CTcvsBp886G0DV4-YnyNh_hmFO8Qi5LDLBtrhtbzYmxHsdJFV6N0R2xy_JQK3VFHdUX6Nu5y1O48')"></div>
+<div class="p-4">
+<h4 class="font-bold text-xl text-heritage-blue mb-2">Ensino Médio</h4>
+<p class="text-sm text-on-surface-variant mb-6 h-12 overflow-hidden">Preparação integral para as melhores universidades do país.</p>
+<a class="text-heritage-blue font-bold flex items-center gap-2 hover:gap-3 transition-all" href="#">
+                        Saiba Mais <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Infrastructure & Differentials -->
+<section class="py-24 bg-surface-white overflow-hidden">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="grid md:grid-cols-2 gap-16 items-center mb-24">
+<div class="order-2 md:order-1">
+<div class="relative">
+<img class="rounded-3xl shadow-2xl" data-alt="A panoramic view of the Colégio Batista Shepard innovation lab, featuring students working on advanced robotics and STEAM projects. The room is filled with 3D printers, colorful electronic kits, and modular furniture. The lighting is energetic and bright, showcasing a cutting-edge technological environment that fosters creativity and experimentation." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCGtEOtmbjLak0io42ljdU7yNIkRMCPFOsjhXvkVv3ZdKUokWXT-ZJ1_NvfEeYq64uz55jZZkneELoSw4M-B3-dKPDkz9H4lU_3yOfWYsopfu3_UhSxm0nFU9A5NStrt_RnO1s8qxBemkC-9-klyaMJkJzU1rft06FO72uq3LkgWJW_P81uw52jsaUnXcr6UQaGspgtqDyc5x7-ZwsVKBco5J-8pIEtwiUmCLCoWFmjP5j-KGuAlN8">
+<div class="absolute -bottom-6 -right-6 bg-excellence-gold p-6 rounded-2xl hidden md:block max-w-[240px]">
+<p class="text-heritage-blue font-bold text-lg">Inovação e Tecnologia</p>
+<p class="text-heritage-blue/80 text-sm">Clube de Inovação &amp; Jornada Z integrada ao currículo.</p>
+</div>
+</div>
+</div>
+<div class="order-1 md:order-2 space-y-6">
+<h2 class="font-headline-lg text-headline-lg text-heritage-blue">Diferenciais que Fazem a Diferença</h2>
+<ul class="space-y-6">
+<li class="flex gap-4">
+<span class="material-symbols-outlined text-secondary shrink-0">workspace_premium</span>
+<div>
+<h4 class="font-bold text-lg text-heritage-blue">Sistema Bernoulli</h4>
+<p class="text-on-surface-variant">Utilizamos o material didático líder em aprovações no Brasil, garantindo rigor acadêmico e resultados reais.</p>
+</div>
+</li>
+<li class="flex gap-4">
+<span class="material-symbols-outlined text-secondary shrink-0">sports_volleyball</span>
+<div>
+<h4 class="font-bold text-lg text-heritage-blue">Esportes de Elite</h4>
+<p class="text-on-surface-variant">Parcerias exclusivas com a Escola de Vôlei Bernardinho e a Escola de Futebol do Flamengo.</p>
+</div>
+</li>
+<li class="flex gap-4">
+<span class="material-symbols-outlined text-secondary shrink-0">schedule</span>
+<div>
+<h4 class="font-bold text-lg text-heritage-blue">Shepard+ (Tempo Integral)</h4>
+<p class="text-on-surface-variant">Programa de imersão no inglês, acompanhamento pedagógico e oficinas diversificadas no contraturno.</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<!-- Meliponário Section -->
+<div class="bg-heritage-blue rounded-[2.5rem] p-12 md:p-20 text-surface-white relative overflow-hidden">
+<div class="absolute top-0 right-0 w-64 h-64 bg-excellence-gold/10 blur-[100px] rounded-full"></div>
+<div class="grid md:grid-cols-2 gap-12 items-center relative z-10">
+<div class="space-y-6">
+<span class="text-excellence-gold font-bold uppercase tracking-widest text-sm">Consciência Ambiental</span>
+<h2 class="font-headline-lg text-headline-lg">Meliponário Escolar: Onde a Natureza Ensina</h2>
+<p class="font-body-lg text-surface-white/80">Somos um dos poucos colégios com um meliponário educativo. Aqui, os alunos descobrem o universo das abelhas nativas sem ferrão, despertando curiosidade científica, respeito à criação e consciência ecológica desde cedo.</p>
+<div class="flex flex-wrap gap-4 pt-4">
+<div class="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full border border-white/10">
+<span class="material-symbols-outlined text-excellence-gold">nature</span>
+<span class="text-sm">Vivência Prática</span>
+</div>
+<div class="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full border border-white/10">
+<span class="material-symbols-outlined text-excellence-gold">biotech</span>
+<span class="text-sm">Pesquisa Científica</span>
+</div>
+</div>
+</div>
+<div class="relative group">
+<img class="rounded-2xl border-4 border-excellence-gold/20 shadow-2xl transition-transform duration-500 group-hover:scale-[1.02]" data-alt="A group of inquisitive young students wearing white Colégio Batista Shepard t-shirts standing in a shaded, rustic wooden structure called a Meliponário. They are observing wooden bee boxes under the guidance of a female teacher. The scene is bright, outdoorsy, and educational, capturing the essence of environmental consciousness and hands-on learning in nature." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8gKiwDCNiYWtRoY5WeWs5DmpFeloemtnS4uK2Gpga3nv3yfdXkGFY_NmbZxcAlSRGRZ4et46vuju43TF6U3vH3Lsb_IyNhMQ7vtKBQpudWEscqX7-nGUH5ZIUiZSBux7UAClDORjzgaf92eQG03l9MYJoNxcdsaPU0OOZQ4HXLhm-YG_xyo5Gnb1eLjiZSa8wasZpa-9yDIWkzzHd7uoLDyazTSdCh-FM0EHmfnwSzDd5GKB5GoY">
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonials -->
+<section class="py-24 bg-surface-container">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto text-center mb-16">
+<h2 class="font-headline-lg text-headline-lg text-heritage-blue">O que os pais dizem</h2>
+<p class="text-on-surface-variant">Nossa maior recompensa é o impacto na vida das famílias</p>
+</div>
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto grid md:grid-cols-3 gap-8">
+<div class="bg-surface-white p-8 rounded-2xl shadow-sm border border-outline-variant relative">
+<span class="material-symbols-outlined text-6xl text-heritage-blue/10 absolute top-4 right-4">format_quote</span>
+<div class="flex text-excellence-gold mb-4">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-on-surface-variant italic mb-6">"O colégio oferece muito mais que conteúdo acadêmico. O acolhimento e o reforço dos valores cristãos fazem toda a diferença no dia a dia da minha filha."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-surface-dim rounded-full flex items-center justify-center text-heritage-blue">
+<span class="material-symbols-outlined">person</span>
+</div>
+<div>
+<p class="font-bold text-heritage-blue">Mariana S.</p>
+<p class="text-xs text-on-surface-variant">Mãe do Fundamental I</p>
+</div>
+</div>
+</div>
+<div class="bg-surface-white p-8 rounded-2xl shadow-sm border border-outline-variant relative">
+<span class="material-symbols-outlined text-6xl text-heritage-blue/10 absolute top-4 right-4">format_quote</span>
+<div class="flex text-excellence-gold mb-4">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-on-surface-variant italic mb-6">"Ficamos impressionados com a infraestrutura tecnológica. O Clube de Inovação despertou no meu filho um interesse gigante por engenharia e robótica."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-surface-dim rounded-full flex items-center justify-center text-heritage-blue">
+<span class="material-symbols-outlined">person</span>
+</div>
+<div>
+<p class="font-bold text-heritage-blue">Ricardo M.</p>
+<p class="text-xs text-on-surface-variant">Pai do Ensino Médio</p>
+</div>
+</div>
+</div>
+<div class="bg-surface-white p-8 rounded-2xl shadow-sm border border-outline-variant relative">
+<span class="material-symbols-outlined text-6xl text-heritage-blue/10 absolute top-4 right-4">format_quote</span>
+<div class="flex text-excellence-gold mb-4">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-on-surface-variant italic mb-6">"O Bernoulli é um diferencial incrível. Vejo meu filho motivado e realmente preparado para enfrentar o vestibular com tranquilidade e confiança."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-surface-dim rounded-full flex items-center justify-center text-heritage-blue">
+<span class="material-symbols-outlined">person</span>
+</div>
+<div>
+<p class="font-bold text-heritage-blue">Clara L.</p>
+<p class="text-xs text-on-surface-variant">Mãe do Fundamental II</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Lead Capture Form -->
+<section class="py-24 bg-surface-bright relative" id="matricula">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto grid md:grid-cols-2 gap-16 items-center">
+<div>
+<h2 class="font-headline-lg text-headline-lg text-heritage-blue mb-6">Inicie a Jornada do seu Filho Conosco</h2>
+<p class="font-body-lg text-on-surface-variant mb-8">Preencha o formulário e nossa equipe de atendimento entrará em contato para agendar uma visita e tirar todas as suas dúvidas sobre o processo de matrícula 2025.</p>
+<div class="space-y-4">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-secondary">call</span>
+<span class="font-bold text-heritage-blue">(21) 3282-1200</span>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-secondary">location_on</span>
+<span class="font-bold text-heritage-blue">R. Gen. Roca, 535 - Tijuca, Rio de Janeiro</span>
+</div>
+</div>
+</div>
+<div class="bg-surface-white p-10 rounded-3xl shadow-xl border border-outline-variant">
+<form id="leadForm" class="space-y-6">
+<div>
+<label class="block font-label-md text-label-md text-heritage-blue mb-2">Nome do Responsável</label>
+<input id="nomeResp" class="w-full px-4 py-3 rounded-xl border border-outline-variant focus:border-heritage-blue focus:ring-1 focus:ring-heritage-blue outline-none transition-all" placeholder="Digite seu nome completo" type="text" required>
+</div>
+<div class="grid sm:grid-cols-2 gap-6">
+<div>
+<label class="block font-label-md text-label-md text-heritage-blue mb-2">E-mail</label>
+<input id="emailResp" class="w-full px-4 py-3 rounded-xl border border-outline-variant focus:border-heritage-blue focus:ring-1 focus:ring-heritage-blue outline-none transition-all" placeholder="seu@email.com" type="email" required>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-heritage-blue mb-2">WhatsApp</label>
+<input id="whatsappResp" class="w-full px-4 py-3 rounded-xl border border-outline-variant focus:border-heritage-blue focus:ring-1 focus:ring-heritage-blue outline-none transition-all" placeholder="(00) 00000-0000" type="tel" required>
+</div>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-heritage-blue mb-2">Segmento de Interesse</label>
+<select id="segmentoResp" class="w-full px-4 py-3 rounded-xl border border-outline-variant focus:border-heritage-blue focus:ring-1 focus:ring-heritage-blue outline-none transition-all bg-white">
+<option>Educação Infantil</option>
+<option>Fundamental I</option>
+<option>Fundamental II</option>
+<option>Ensino Médio</option>
+</select>
+</div>
+<button class="w-full bg-heritage-blue text-surface-white font-bold py-4 rounded-xl hover:bg-secondary transition-colors text-lg" type="submit">
+                        Enviar Solicitação
+                    </button>
+</form>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-heritage-blue text-surface-white py-16">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-12 mb-12">
+<div class="space-y-4"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZV83jPyzgupLS1aMYfTM4X6jrHlXch0M84tH6WRLRRa3cRyRW4_owrfMRDDfhljGaedjK2B94mF22VnFDjDXEfTKbRcphabS2ZO1rtuF8Jr8R2exo5jOVlPC_lcABlJY5pNliFH1S-0dXOnVCohDeyhTWFVESaTMb8y7673YBa25tKS2so0OWvsWFV6VHeqs69PnhHgS1CvLqQYlQxrsjeIK4dIRsNvl13R643FVl1a-4ggHWRAaMMFCkuiDOFGYH" alt="Logo Colégio Batista Shepard" class="h-16 w-auto object-contain mb-4">
+<img alt="Logo Rodapé" class="h-12 w-auto brightness-0 invert" src="https://lh3.googleusercontent.com/aida/AP1WRLtjThtyeuAc_ktCIdhqZrNOu4I73hBT6HHaDp5tvHiJL4Ihr1H_PGkFuA2M56j5lgdVpRbNURY6Hnq9WiI4cAs92gjw3kDFYeKQkPuT9GUIjCjnkbm8cphZskxOe-XLdLUayp8WHrlA4LcngykNcLDZ1ywTewj6CbDhB6Q1pQd0x_-LR04CC-VM5xCdeTNvXniEWvNPT3xJbbYETh6sgP7h-AxooyM7SXVUWtKGYAaOWeU5bjtbPNsp">
+<p class="max-w-xs text-surface-white/70">Educação com amor, excelência e valores cristãos há mais de um século.</p>
+</div>
+<div class="flex flex-wrap gap-8">
+<a class="text-surface-container-high opacity-80 hover:text-excellence-gold transition-all" href="#">Política de Privacidade</a>
+<a class="text-surface-container-high opacity-80 hover:text-excellence-gold transition-all" href="#">Trabalhe Conosco</a>
+<a class="text-surface-container-high opacity-80 hover:text-excellence-gold transition-all" href="#">Localização</a>
+<a class="text-surface-container-high opacity-80 hover:text-excellence-gold transition-all font-bold" href="#">Portal do Aluno</a>
+</div>
+</div>
+<div class="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-surface-white/60">
+<p class="">© 2024 Colégio Batista Shepard - Amor e Excelência no Ensino.</p>
+<div class="flex gap-4">
+<a class="hover:text-excellence-gold transition-colors" href="#"><span class="material-symbols-outlined">language</span></a>
+<a class="hover:text-excellence-gold transition-colors" href="#"><span class="material-symbols-outlined">public</span></a>
+</div>
+</div>
+</div>
+</footer>
+<!-- Sticky CTA -->
+<div class="fixed bottom-0 left-0 w-full z-40 bg-surface-white sticky-cta-shadow border-t border-outline-variant md:hidden">
+<div class="px-margin-mobile py-4">
+<a class="block w-full bg-secondary text-surface-white text-center font-bold py-4 rounded-xl" href="#matricula">
+                Matricule-se Agora
+            </a>
+</div>
+</div>
+<div class="fixed bottom-8 right-8 z-40 hidden md:block group">
+<a class="flex items-center gap-3 bg-secondary text-surface-white px-8 py-4 rounded-full shadow-2xl hover:scale-105 transition-transform" href="#matricula">
+<span class="material-symbols-outlined">assignment</span>
+<span class="font-bold">Matricule-se Agora</span>
+</a>
+</div>
+<script>
+        // Smooth scroll implementation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // WhatsApp Form Integration
+        document.getElementById('leadForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const nome = document.getElementById('nomeResp').value;
+            const email = document.getElementById('emailResp').value;
+            const whatsapp = document.getElementById('whatsappResp').value;
+            const segmento = document.getElementById('segmentoResp').value;
+            
+            const empresaPhone = "5521971843481"; // Número da escola sem formatação
+            
+            const message = `Olá! Gostaria de solicitar informações sobre matrículas.\n\n*Nome:* ${nome}\n*E-mail:* ${email}\n*WhatsApp:* ${whatsapp}\n*Segmento de Interesse:* ${segmento}`;
+            
+            const whatsappUrl = `https://api.whatsapp.com/send?phone=${empresaPhone}&text=${encodeURIComponent(message)}`;
+            
+            window.open(whatsappUrl, '_blank');
+        });
+    </script>
+
+</body></html>
